@@ -51,10 +51,20 @@ export default{
 
     methods: {
     navTo:function(samp){
-        console.log(samp = "contact" ,'===============');
         if(samp == "contact")  {
+          console.log(samp = "contact" ,'===============');
+
             this.$router.push('/contact')
         }
+
+        else if(samp == "services"){
+          console.log(samp  ,'===============');
+            this.$router.push('/services')
+
+
+        }
+
+
         
 
 

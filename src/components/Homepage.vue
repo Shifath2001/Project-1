@@ -73,16 +73,9 @@ export default{
     FooterVue,
     Navbar,
 },
-  methods: {
-    navTo:function(){
-
-      this.$router.push('/contact')
   
 
 
-
-    }
-  },
 }
 
 
