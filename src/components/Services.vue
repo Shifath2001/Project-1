@@ -5,6 +5,7 @@
 <div>
   <b-card
     overlay
+    
     img-src="http://localhost:8080/static/img/Get%20App.9e6399a.jpg"
     img-alt="Card Image"
     text-variant="white"
@@ -17,7 +18,7 @@
 
 
 
-
+<h1 class="text-center">Start your preparation</h1><br>
 
 <div class="row d-flex justify-content-center">
   <div class="col-sm-3">
@@ -48,6 +49,66 @@
     </div>
   
   </div>
+
+  <br><div class="row d-flex justify-content-center">
+<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Test bytes
+</h5>
+      <p class="card-text">
+Practice unlimited test bytes and get all your </p>
+      <a href="#" class="btn btn-primary">Start your test</a>
+
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+<br><div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Test Videos
+      </h5>
+      <p class="card-text">
+Live interactive classes and doublt solved by expert faculty
+      </p>
+      <a href="#" class="btn btn-primary">Start your test</a>
+
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+<div class="col-sm-3">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Free videos
+      </h5>
+      <p class="card-text">
+All exams  series videos will be added
+       </p>
+      <a href="#" class="btn btn-primary">Start your test</a>
+
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+</div>
 
 
 </div>

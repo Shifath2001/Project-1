@@ -6,12 +6,14 @@
        <div class="text-center"><h3>Contact Form</h3></div> 
     
 
+       <div class="card col-sm-3 container d-flex justify-content-center" style="border-radius:1rem; border-color: black; padding: 10px; background-color:lightskyblue;" >
 
 
 
+      
        
-       <div class=" container d-flex justify-content-center" >
-      <b-form @submit="onSubmit"  v-if="show">
+
+        <b-form @submit="onSubmit"  v-if="show">
   
         <b-form-group id="input-group-1" label="Your Name:" label-for="input-2">
           <b-form-input
@@ -41,6 +43,7 @@
           <b-form-input
             id="input-3"
             v-model="form.phonenumber"
+            type="number"
             placeholder="Enter Phonenumber"
             required
           ></b-form-input>
@@ -67,8 +70,8 @@
         <b-button type="submit" variant="primary">Submit</b-button>
       
       </b-form>
-    
-</div>
+   </div>
+
 
 <Footer/>
     </div>

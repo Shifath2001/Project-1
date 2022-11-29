@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Homepage from '@/components/Homepage'
 import Contactform from '@/components/Contactform'
 import Services from '@/components/Services'
+import About from '@/components/About'
+
 
 Vue.use(Router)
 
@@ -23,6 +25,12 @@ export default new Router({
       name: 'Services' , 
       component: Services 
  
+
+    },
+    {
+     path: '/about',
+     name: '/About',
+     component: About
 
     }
 

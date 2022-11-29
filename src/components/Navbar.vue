@@ -10,8 +10,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item" @click="navTo('home')" >
+        <li class="nav-item" @click="navTo('/')" >
           <a class="nav-link" aria-current="page">Home</a>
+
+
         </li>
         <li class="nav-item" @click="navTo('services')">
           <a class="nav-link">Services</a>
@@ -20,6 +22,13 @@
         <li class="nav-item" @click="navTo('contact')">
           <a class="nav-link">Contact</a>
         </li>
+
+        <li class="nav-item" @click="navTo('about')">  
+<a class="nav-link"> About</a>
+
+        </li>
+      
+
         <b-nav-item-dropdown
       id="my-nav-dropdown"
       text="Branches"
@@ -64,8 +73,21 @@ export default{
 
         }
 
+        if(samp == "/"){
+         console.log(samp ,'================');
+         this.$router.push('/')
 
+
+        }
         
+      else if(samp == "about"){
+      console.log(samp ,'==============');
+      this.$router.push('/about')
+      
+
+
+      }
+                   
 
 
     //   this.$router.push('/contact')

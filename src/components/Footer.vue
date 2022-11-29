@@ -3,7 +3,7 @@
 
 
 
-<footer class="bg-info text-white text-center text-lg-start">
+<footer class="bg-info text-black text-center text-lg-start">
   <div class="container p-4">
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
@@ -37,7 +37,7 @@
 
         <ul class="list-unstyled">
           <li>
-            <p  class="text-white">ANNAI THERASA STREET,MADURAI-625001</p>
+            <p  class="text-white">113,ANNAI THERASA STREET,MADURAI-625001</p>
           </li>
         </ul>
       </div>
