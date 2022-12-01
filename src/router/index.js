@@ -4,7 +4,7 @@ import Homepage from '@/components/Homepage'
 import Contactform from '@/components/Contactform'
 import Services from '@/components/Services'
 import About from '@/components/About'
-
+import Loginpage from  '@/components/Loginpage'
 
 Vue.use(Router)
 
@@ -32,8 +32,15 @@ export default new Router({
      name: '/About',
      component: About
 
-    }
+    },
 
+    {
+     path: '/login',
+     name:'/Loginpage',
+     component: Loginpage
+
+
+    }
 
   ]
 })

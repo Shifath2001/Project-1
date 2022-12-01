@@ -1,6 +1,7 @@
 <template>
 <div>
 
+
     <nav class="navbar navbar-expand-lg bg-info">
   <div class="container-fluid">
     <img src="../assets/logo.png" alt="logo" width="25" height="25"/>
@@ -20,7 +21,7 @@
         </li>
 
         <li class="nav-item" @click="navTo('contact')">
-          <a class="nav-link">Contact</a>
+          <a class="nav-link">Contact Us</a>
         </li>
 
         <li class="nav-item" @click="navTo('about')">  
@@ -44,8 +45,7 @@
   
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-success"  @click="navTo('login')"   type="submit">Login</button>
       </form>
     </div>
   </div>
@@ -87,6 +87,15 @@ export default{
 
 
       }
+
+if(samp == "login"){
+  console.log(samp ,'==============');
+      this.$router.push('/login')
+      
+
+}
+
+
                    
 
 
